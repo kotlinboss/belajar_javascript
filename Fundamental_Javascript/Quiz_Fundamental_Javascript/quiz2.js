@@ -22,13 +22,35 @@
     let result;
   
     // TODO
-  
+    if(score >= 90){
+      result = "Selamat! Anda mendapatkan nilai A."
+    }else if(score >= 80 && score <= 89){
+      result = "Anda mendapatkan nilai B."
+    }else if(score >= 70 && score <= 79){
+      result = "Anda mendapatkan nilai C."
+    }else if(score >= 60 && score <= 69){
+      result = "Anda mendapatkan nilai D."
+    }else{
+      result = "Anda mendapatkan nilai E."
+    }
   
   
     // Jangan hapus kode ini
     return result;
   }
   
+  /*
+  // For Testing ...
+  console.log(scoreChecker(90))
+  console.log(scoreChecker(89))
+  console.log(scoreChecker(80))
+  console.log(scoreChecker(79))
+  console.log(scoreChecker(70))
+  console.log(scoreChecker(69))
+  console.log(scoreChecker(60))
+  console.log(scoreChecker(59))
+  */
+
   /**
    * Jangan hapus kode di bawah ini
    */
