@@ -6,6 +6,8 @@ const book = {
     pemilik : "Jonry Simbolon"
 }
 
+console.log(book)
+console.log("\n")
 // mengakses property pada object book
 console.log(`Judul buku : ${book.title}`)
 console.log(`Jumlah halaman : ${book["number of page"]} lembar`)
