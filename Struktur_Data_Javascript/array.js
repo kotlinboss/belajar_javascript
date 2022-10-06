@@ -1,4 +1,4 @@
-let laptop = [
+const laptop = [
     "Lenovo",
     "Macbook",
     "Asus",
