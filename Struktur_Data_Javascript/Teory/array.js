@@ -18,7 +18,7 @@ laptop.pop()
 console.log(laptop)
 
 console.log("\n===== menghapus data di awal array =====")
-// menambah data di awal
+// menghapus data di awal
 laptop.shift()
 console.log(laptop)
 
